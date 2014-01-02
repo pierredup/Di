@@ -1,0 +1,21 @@
+{
+    "name": "pierredup/di",
+    "description": "A dynamic dependency injection manager",
+    "license": "MIT",
+    "type" : "library",
+    "keywords" : ["dependency injection", "dependency", "injection", "di"],
+    "authors": [
+        {
+            "name": "Pierre du Plessis",
+            "email": "pdples@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/pierredup/Di/issues",
+        "source": "https://github.com/pierredup/Di"
+    },
+    "minimum-stability": "dev",
+    "autoload" : {
+        "classmap" : ["./src"]
+    }
+}
