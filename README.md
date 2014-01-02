@@ -1,5 +1,9 @@
 # Dynamic Dependency Injection
 
+[![Build Status](https://travis-ci.org/pierredup/Di.png?branch=master)](https://travis-ci.org/pierredup/Di)
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/pierredup/Di/badges/quality-score.png?s=cd1d6320b059902f1a4738707fe75b5ab92bce99)](https://scrutinizer-ci.com/g/pierredup/Di/)
+[![Code Coverage](https://scrutinizer-ci.com/g/pierredup/Di/badges/coverage.png?s=73ba6e3e0c0fbeed93dfe857435381b6eb5d8589)](https://scrutinizer-ci.com/g/pierredup/Di/)
+
 This library provides a class to handle dependency injection dynamically.
 
 Dynamic dependency injection means you don't have to define services or define which dependencies
