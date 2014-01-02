@@ -86,4 +86,21 @@ class DiTest extends PHPUnit_FrameWork_TestCase
         $this->assertSame($bar, $baz1->param1);
         $this->assertSame('default', $baz1->param2);
     }
+
+    public function test_overwrite_class_name()
+    {
+        Di::map(array(
+            'DiTest\Bar' => Di::get('DiTest\BazBar')
+        ));
+
+        $object = Di::get('DiTest\Baz');
+
+        $this->assertInstanceOf('DiTest\BazBar', $object->param1);
+    }
+
+    public function test_default_null_parameter_value()
+    {
+        $object = Di::get('DiTest\FooBar');
+        $this->assertNull($object->param1);
+    }
 }

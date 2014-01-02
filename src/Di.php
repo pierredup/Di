@@ -152,7 +152,7 @@ class Di
             return $parameter->getDefaultValue();
         }
 
-        throw new InvalidArgumentException(sprintf("Parameter %s can't be loaded", $parameter->getName()));
+        return null;
     }
 
     /**
