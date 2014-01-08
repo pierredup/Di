@@ -186,3 +186,4 @@ $object = Di::get('Foo\Bar'); // will return an instance of `Baz\FooBar`
 * Setter Injection
 * Cache class instances
 * Define services
+* Map interface to concrete class
