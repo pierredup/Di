@@ -183,7 +183,7 @@ $object = Di::get('Foo\Bar'); // will return an instance of `Baz\FooBar`
 
 ## TODO
 
-* Setter Injection
-* Cache class instances
-* Define services
-* Map interface to concrete class
+* Setter Injection [#1](https://github.com/pierredup/Di/issues/1)
+* Cache class instances [#2](https://github.com/pierredup/Di/issues/2)
+* Define services [#3](https://github.com/pierredup/Di/issues/3)
+* Map interface to concrete class [#4](https://github.com/pierredup/Di/issues/4)
