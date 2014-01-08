@@ -33,10 +33,10 @@ require 'vendor/autoload.php';
 
 ### Download the file
 
-Download [Di.php](https://github.com/pierredup/Di/blob/master/src/Di.php) from the repo and save the file into your project path somewhere.
+Download [Di.phar](https://github.com/pierredup/Di/blob/master/Di.phar) from the repo and save the file into your project path somewhere.
 
 ```php
-require 'path/to/Di.php';
+require 'path/to/Di.phar';
 ```
 
 ## Usage
