@@ -1,0 +1,15 @@
+
+{
+    "files": ["LICENSE", "index.php"],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": [
+                "Test"
+            ],
+            "in": "src"
+        }
+    ],
+    "output": "di.phar"
+}
+
